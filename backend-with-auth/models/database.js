@@ -4,12 +4,12 @@ require('dotenv').config()
 // EXOR: one or another
 const ibmdb = require('ibm_db');
 
-const database = process.env.DATABASE; //"BLUDB";                 
-const hostname = process.env.HOSTNAME; //"dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net";    
-const port     = process.env.PORT;     //50000;
-const protocol = process.env.PROTOCOL; //"TCPIP";
-const uid      = process.env.UID;      //"fxz96966";
-const pwd      = process.env.PWD;      //"c51trq4f8crb4-3v";
+const database = process.env.DATABASE;                 
+const hostname = process.env.HOSTNAME;    
+const port     = process.env.PORT;     
+const protocol = process.env.PROTOCOL; 
+const uid      = process.env.UID;      
+const pwd      = process.env.PWD;      
 
 console.log("Opening DB2 connection");
 
