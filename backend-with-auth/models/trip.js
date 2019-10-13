@@ -1,10 +1,10 @@
 const trip = (sequelize, DataTypes) => {
-  const Trip = sequelize.define('Trip', {
+  const Trip = sequelize.define('trip', {
     tdest: {
       type: DataTypes.STRING
     },
     tdate: {
-      type: DataTypes.INT
+      type: DataTypes.INTEGER
     },
     tlead: {
       type: DataTypes.STRING

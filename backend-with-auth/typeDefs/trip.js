@@ -1,7 +1,7 @@
 const { gql } = require('apollo-server-express');
 module.exports = gql`
   extend type Query {
-    trips: [trip]
+    trips: [Trip]
     trip(id: Int!): Trip
     imgs: [Img]
     img(id: String!): Img
