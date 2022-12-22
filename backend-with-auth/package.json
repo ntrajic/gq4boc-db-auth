@@ -15,7 +15,7 @@
     "express": "^4.16.4",
     "express-fileupload": "^1.0.0",
     "graphql": "^14.0.2",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "mysql2": "^1.7.0",
     "nodemon": "^1.19.3",
     "sequelize": "^5.18.4",
